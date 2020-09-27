@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bản CV</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+/*.header {
+  background-color: #00B2BF;
+  color: #ffffff;
+  padding: 15px;
+}*/
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+.aside {
+  background-color: #33b5e5;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: #0099cc;
+  color: #ffffff;              
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+img {
+  width: 40%;
+  height: auto;
+}
+
+.col-3 {width: 25%;}
+.col-6 {width: 50%;}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- <div class="header" style="border: 5px solid;min-height: 100px; min-width :600px;">
+  <h1>Bản CV </h1>
+</div> -->
+<div class="row">
+  <div class="col-3 menu">
+   <img src="nen.jpg" width="200" height="300">
+  </div>
+  <div class="col-6" >   
+    <h1>Giới thiệu về bản thân</h1>
+    <p>Bùi Thị Thùy</p>
+    <p>Giới tính: Nữ</p>
+    <p>Ngày sinh: 18/5/1999</p>
+    <p>Email: thuybui18051999@gmail.com</p>
+    <p>Quê quán: Mỹ Đức - Hà Nội</p>
+    <p>SĐT liên hệ: 0369938921</p>
+  </div>
+  <div class="col-3 right">
+    <div class="aside">
+      <h2>Hoc Vấn</h2>
+      <p>Sinh viên năm 4 khoa CNTT</p>
+      <p>Trường Đại học Sư Phạm Hà Nội</p>
+      <h2>Kinh nghiệm làm việc</h2>
+      <p>Chưa có kinh nghiệm làm việc</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>----------------------------Hello-------------------------</p>
+</div>
+
+</body>
+</html>
